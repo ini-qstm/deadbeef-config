@@ -11,7 +11,7 @@ yay -S --needed deadbeef deadbeef-plugin-waveform-gtk3-git
 #### 2) copy deadbeef config folder to ~/.config/
 ```bash
 mkdir -p ~/.cache/deadbeef-config/
-git clone _ ~/.cache/deadbeef-config/
+git clone https://github.com/ini-qstm/deadbeef-config.git ~/.cache/deadbeef-config/
 cp -r ~/.cache/deadbeef-config/deadbeef ~/.config/
 # if you want same theme, you also need to copy gtk-3.0 folder
 cp -r ~/.cache/deadbeef-config/gtk-3.0 ~/.config/
