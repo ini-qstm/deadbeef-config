@@ -24,7 +24,7 @@ cp -r ~/.cache/deadbeef-config/gtk-3.0 ~/.config/
 #### 2) copy deadbeef config folder to ~/.config/
 ```bash
 mkdir -p ~/.cache/deadbeef-config/
-git clone _ ~/.cache/deadbeef-config/
+git clone https://github.com/ini-qstm/deadbeef-config.git ~/.cache/deadbeef-config/
 cp -r ~/.cache/deadbeef-config/deadbeef ~/.config/
 # if you want same theme, you also need to copy gtk-3.0 folder
 cp -r ~/.cache/deadbeef-config/gtk-3.0 ~/.config/ 
@@ -46,8 +46,8 @@ cp -r ~/.cache/deadbeef-config/gtk-3.0 ~/.config/
 1) start deadbeef
 2) edit -> preferences -> sound
 select your output device
-> By default, this config uses ALSA Output. Here is a brief explanation:
-    ALSA: Lowest latency and highest quality. Note: This will block sound from other apps (YouTube, System sounds) while music is playing
+> By default, this config uses ALSA Output. Here is a brief explanation:\n
+    ALSA: Lowest latency and highest quality. Note: This will block sound from other apps (YouTube, System sounds) while music is playing\n
     Shared Mode (PipeWire/PulseAudio): Use this if you want to hear music and other apps simultaneously
 
 3) edit -> preferences -> media library: click to plus (from below) and then select your music library 
