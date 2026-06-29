@@ -3,7 +3,7 @@
 ![screenshot](./preview1.png)
 ## How to install
 ### Linux
-#### 1) install deadbeef and waveform plugin via aur (yay for example)
+#### 1) install deadbeef and waveform seekbar plugin via aur (yay for example)
 #### Arch linux
 ----
 **!!Warning!!** These packages may be compromised. Check the safety of the packages before installation
@@ -12,7 +12,7 @@ yay -S --needed deadbeef deadbeef-plugin-waveform-gtk3-git
 ```
 #### Debian (Ubuntu, Mint, etc)
 ----
-[deadbeef](https://sourceforge.net/projects/deadbeef/files/Builds/1.10.2/linux/deadbeef-static_1.10.2-1_amd64.deb/download) and [waveform plugin](https://github.com/cboxdoerfer/ddb_waveform_seekbar)
+install [deadbeef](https://sourceforge.net/projects/deadbeef/files/Builds/1.10.2/linux/deadbeef-static_1.10.2-1_amd64.deb/download) and [waveform seekbar plugin](https://github.com/cboxdoerfer/ddb_waveform_seekbar)
 > If you dont want to install any plugins, you can just skip it. Dont forget to change seekbar to default
 
 #### Other Linux distro
@@ -41,13 +41,15 @@ Please, use something more popular like foobar2000, aimp, etc. You dont need dea
 ### MacOS
 ----
 > You will need to change seekbar to default
-#### 1) install [deadbeef](https://deadbeef.sourceforge.io/download.html). You also can download [Discord Rich Presence Plugin](https://github.com/kuba160/ddb_discord_presence) and unpack zip, then copy *.dylib files into ~/Library/Application Support/Deadbeef/Plugins
-#### 2) download this repo and insert to deadbeef directory. idk where this dir, maybe at ~/Library/Application Support/Deadbeef/. Find "config" file and replace it
+1) install [deadbeef](https://deadbeef.sourceforge.io/download.html). You also can download [Discord Rich Presence Plugin](https://github.com/kuba160/ddb_discord_presence) and unpack zip, then copy *.dylib files into ~/Library/Application Support/Deadbeef/Plugins
+2) download this repo and insert to deadbeef directory. idk where this dir, maybe at ~/Library/Application Support/Deadbeef/. Find "config" file and replace it
 
 ## Quick configure:
 1) start deadbeef
 2) edit -> preferences -> sound: select your output device
-3) edit -> preferences -> media library: click to plus (from below) and then select your music library 
+3) edit -> preferences -> media library: click to plus (from below) and then select your music library
+4) Most likely, you will need to change colors for the seekbar (if you use the waveform seekbar), and the playback control buttons. To do this, go to View → Click to Design Mode (turn it on). Right-click on those elements → Configure, and there you can change the colors to whatever you like. after do view -> click to design mode (turn off)
+
 
 #### If you dont like waveform seekbar or you cant install it, you need:
 1) view -> click to design mode (turn on)
