@@ -51,12 +51,12 @@ gtkui.embolden_current_track 1
 gtkui.embolden_selected_tracks 0
 gtkui.eq.visible 0
 gtkui.font.tabstrip_text Adwaita Sans 11
-gtkui.layout.1.9.0 {"type":"hsplitter","legacy_params":" locked=0 ratio=0.343291 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0.247036 pos=0 size2=0","children":[{"type":"pltbrowser"},{"type":"medialibviewer"}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.391466 pos=0 size2=0","children":[{"type":"coverart","settings":{"mode":"playing_or_selected"}},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.172757 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0.558824 pos=0 size2=0","children":[{"type":"hbox","legacy_params":" expand=\"1 1 1 1\" fill=\"1 1 1 1\" homogeneous=1","children":[{"type":"placeholder"},{"type":"hbox","legacy_params":" expand=\"1 1 1\" fill=\"1 1 1\" homogeneous=1","children":[{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-previous\" label=\"\" action=\"playback_prev_album\" use_color=1 use_textcolor=0"},{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-rewind\" label=\"\" action=\"prev\" use_color=1 use_textcolor=0"},{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-play\" label=\"\" action=\"play_pause\" use_color=1 use_textcolor=0"}]},{"type":"hbox","legacy_params":" expand=\"1 1 1\" fill=\"1 1 1\" homogeneous=1","children":[{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-forward\" label=\"\" action=\"next\" use_color=1 use_textcolor=0"},{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-next\" label=\"\" action=\"playback_next_album\" use_color=1 use_textcolor=0"},{"type":"volumebar","settings":{"scale":"cubic"}}]},{"type":"placeholder"}]},{"type":"waveform_seekbar"}]},{"type":"tabs","settings":{"active":"0","num_tabs":"3","tab000":"Queue","tab001":"Lyrics","tab002":"Properties"},"children":[{"type":"playlist","legacy_params":" hideheaders=0 width=1245"},{"type":"lyrics"},{"type":"selproperties","settings":{"section":"properties,metadata","showheaders":"0"}}]}]}]}]}
+gtkui.layout.1.9.0 {"type":"hsplitter","legacy_params":" locked=0 ratio=0.343291 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0.247036 pos=0 size2=0","children":[{"type":"pltbrowser"},{"type":"medialibviewer"}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.391466 pos=0 size2=0","children":[{"type":"coverart","settings":{"mode":"playing_or_selected"}},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.172757 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0.558824 pos=0 size2=0","children":[{"type":"hbox","legacy_params":" expand=\"1 1 1 1\" fill=\"1 1 1 1\" homogeneous=1","children":[{"type":"placeholder"},{"type":"hbox","legacy_params":" expand=\"1 1 1\" fill=\"1 1 1\" homogeneous=1","children":[{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-previous\" label=\"\" action=\"playback_prev_album\" use_color=1 use_textcolor=0"},{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-rewind\" label=\"\" action=\"prev\" use_color=1 use_textcolor=0"},{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-play\" label=\"\" action=\"play_pause\" use_color=1 use_textcolor=0"}]},{"type":"hbox","legacy_params":" expand=\"1 1 1\" fill=\"1 1 1\" homogeneous=1","children":[{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-forward\" label=\"\" action=\"next\" use_color=1 use_textcolor=0"},{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" icon=\"gtk-media-next\" label=\"\" action=\"playback_next_album\" use_color=1 use_textcolor=0"},{"type":"volumebar","settings":{"scale":"cubic"}}]},{"type":"placeholder"}]},{"type":"waveform_seekbar"}]},{"type":"tabs","settings":{"active":"0","num_tabs":"3","tab000":"Queue","tab001":"Lyrics","tab002":"Properties"},"children":[{"type":"playlist","legacy_params":" hideheaders=0 width=648"},{"type":"lyrics"},{"type":"selproperties","settings":{"section":"properties,metadata","showheaders":"0"}}]}]}]}]}
 gtkui.log.autoopen 1
 gtkui.name_playlist_from_folder 1
-gtkui.override_bar_colors 1
-gtkui.override_listview_colors 1
-gtkui.override_tabstrip_colors 1
+gtkui.override_bar_colors 0
+gtkui.override_listview_colors 0
+gtkui.override_tabstrip_colors 0
 gtkui.playlist.group_by_tf ['['$year(%date%)']' ]%album%
 gtkui.pltbrowser.highlight_curr_plt 1
 gtkui.pltbrowser.mmb_delete_playlist 0
@@ -74,7 +74,7 @@ gtkui.tray_volume_sensitivity 1
 gtkui.unicode_playstate 0
 gtkui.vis.custom_base_color 34181 39064 33153
 gtkui.vis.use_custom_background_color 0
-gtkui.vis.use_custom_base_color 1
+gtkui.vis.use_custom_base_color 0
 hotkey.key01 "Ctrl f" 0 0 find
 hotkey.key02 "Ctrl o" 0 0 open_files
 hotkey.key03 "Ctrl q" 0 0 quit
@@ -112,9 +112,9 @@ hotkeys_created 1
 hvsc_enable 0
 hvsc_path 
 ignore_archives 0
-mainwin.geometry.h 1200
+mainwin.geometry.h 514
 mainwin.geometry.maximized 1
-mainwin.geometry.w 1920
+mainwin.geometry.w 954
 mainwin.geometry.x 0
 mainwin.geometry.y 0
 medialib.deadbeef.enabled 1
@@ -129,7 +129,7 @@ playback.loop 1
 playback.order 0
 playback.volume.normalized 1.0000000
 playlist.current 0
-playlist.cursor.0 1
+playlist.cursor.0 0
 playlist.cursor.1 2
 playlist.cursor.2 0
 playlist.groups.spacing 0
@@ -142,7 +142,7 @@ playlist.stop_after_queue_reset 0
 playlist.tab.00000 Default
 prefwin.geometry.h 608
 prefwin.geometry.maximized 1
-prefwin.geometry.w 713
+prefwin.geometry.w 749
 prefwin.geometry.x 0
 prefwin.geometry.y 0
 resume.paused 0
