@@ -1,4 +1,5 @@
 # DeadBeef config
+## DeaDBeeF uses the colors of the GTK 3 theme, so you will have the colors of the theme that is set on your system
 ## preview
 ![screenshot](./preview1.png)
 ## How to install
