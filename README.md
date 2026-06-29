@@ -5,14 +5,14 @@
 ### Arch linux
 ----
 #### 1) install deadbeef and waveform plugin via aur (yay for example)
+**!!Warning!!** These packages may be compromised. Check the safety of the packages before installation
 ```bash
 yay -S --needed deadbeef deadbeef-plugin-waveform-gtk3-git
 ```
 #### 2) copy deadbeef config folder to ~/.config/
 ```bash
-mkdir -p ~/.cache/deadbeef-config/
-git clone https://github.com/ini-qstm/deadbeef-config.git ~/.cache/deadbeef-config/
-cp -r ~/.cache/deadbeef-config/deadbeef ~/.config/
+mkdir -p ~/.config/deadbeef/
+git clone https://github.com/ini-qstm/deadbeef-config.git ~/.config/deadbeef/
 ```
 
 ### Debian (Ubuntu, Mint, etc)
@@ -21,9 +21,8 @@ cp -r ~/.cache/deadbeef-config/deadbeef ~/.config/
 > If you dont want to install any plugins, you can just skip it. Dont forget to change seekbar to default
 #### 2) copy deadbeef config folder to ~/.config/
 ```bash
-mkdir -p ~/.cache/deadbeef-config/
-git clone https://github.com/ini-qstm/deadbeef-config.git ~/.cache/deadbeef-config/
-cp -r ~/.cache/deadbeef-config/deadbeef ~/.config// 
+mkdir -p ~/.config/deadbeef/
+git clone https://github.com/ini-qstm/deadbeef-config.git ~/.config/deadbeef/
 ```
 
 ### Windows
